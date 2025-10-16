@@ -1,3 +1,4 @@
+// Create Event
 // Sort Function
 sort_score = function(_a, _b) {
     if (_b.lvl != _a.lvl) {
@@ -7,7 +8,9 @@ sort_score = function(_a, _b) {
         return _b.coins - _a.coins;
     }
     // Compare timestamps to ensure the latest entry appears on top
-    return _b.timestamp - _a.timestamp;
+    var a_ts = struct_exists(_a, "timestamp") ? _a.timestamp : 0;
+    var b_ts = struct_exists(_b, "timestamp") ? _b.timestamp : 0;
+    return b_ts - a_ts;
 }
 
 // Create Event

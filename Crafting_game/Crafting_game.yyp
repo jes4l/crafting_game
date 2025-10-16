@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"Crafting_game",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -65,6 +65,7 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"Firebase Web Setup - Release.zip","CopyToMask":-1,"filePath":"datafiles","name":"Firebase Web Setup - Release.zip","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"GMEXT-Firebase.html","CopyToMask":-1,"filePath":"datafiles","name":"GMEXT-Firebase.html","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -72,7 +73,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"Crafting_game",
   "resources":[
@@ -85,6 +86,7 @@
     {"id":{"name":"fntGUI_smallest","path":"fonts/fntGUI_smallest/fntGUI_smallest.yy",},},
     {"id":{"name":"fntGUI","path":"fonts/fntGUI/fntGUI.yy",},},
     {"id":{"name":"fullscreen","path":"objects/fullscreen/fullscreen.yy",},},
+    {"id":{"name":"HTML5_SCALE","path":"objects/HTML5_SCALE/HTML5_SCALE.yy",},},
     {"id":{"name":"oBackBegin","path":"objects/oBackBegin/oBackBegin.yy",},},
     {"id":{"name":"oBackBeginPlayer","path":"objects/oBackBeginPlayer/oBackBeginPlayer.yy",},},
     {"id":{"name":"oBackHome_Loss","path":"objects/oBackHome_Loss/oBackHome_Loss.yy",},},
